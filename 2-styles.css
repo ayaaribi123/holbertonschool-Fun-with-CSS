@@ -1,0 +1,13 @@
+.toggle-cb {
+	display: none;
+}
+
+.toggle-inner {
+	content: url(check.png);
+	position: absolute;
+}
+
+.toggle-cb:checked + .toggle-label {
+	content: url(check\ out.png);
+	position: absolute;
+}
